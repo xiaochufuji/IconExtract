@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{58d50355-1a70-4721-af03-b828c5ff6479}</ProjectGuid>
+    <ProjectGuid>{fb47f8e4-300c-4833-a54f-964b13f8207f}</ProjectGuid>
     <RootNamespace>IconExtract</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -128,13 +128,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="IconExtract.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="IconExtract.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="StringAdapter.cpp" />
-    <ClCompile Include="StringAdapter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IconExtract.h" />
+    <ClInclude Include="StringAdapter.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

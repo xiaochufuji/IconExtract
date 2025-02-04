@@ -363,3 +363,5 @@ MigrationBackup/
 FodyWeavers.xsd
 
 /img
+IconExtract/x64
+IconExtract/img
